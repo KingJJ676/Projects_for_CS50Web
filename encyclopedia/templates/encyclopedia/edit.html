@@ -1,0 +1,16 @@
+{% extends 'encyclopedia/layout.html' %}
+
+{% block title %}
+    Edit
+{% endblock %}
+
+{% block body %}
+    <h1 style="margin-bottom: 40px; margin-left: 105px;">Edit content for: {{ title }}</h1>
+    <form action="edit" method="post">
+        {% csrf_token %}
+        <div style="display: flex; flex-direction: column; align-items: center; margin-top: 20px; margin-left: 20px;">
+            <textarea name="newContent">{{ content }}</textarea>
+            <button type="submit" style="border-radius: 15%; margin-top: 20px;">Save</button>
+        </div>
+    </form>
+{% endblock %}

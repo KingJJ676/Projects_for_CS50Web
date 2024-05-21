@@ -1,0 +1,16 @@
+{% extends 'encyclopedia/layout.html' %}
+
+{% block title %}
+    Other results
+{% endblock %}
+
+{% block body %}
+    <h2 style="margin-bottom: 20px;">Are you looking for these:</h2>
+    <ul>
+        {% for entry in entries %}
+            {% if query in entry %}
+                <li><a href="{% url 'entry' entry %}">{{ entry }}</a></li>
+            {% endif %}
+         {% endfor %}
+    </ul>
+{% endblock %}
