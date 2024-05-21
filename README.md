@@ -1,9 +1,9 @@
-# Wiki  
-This website is a Wikipedia-like online encyclopedia.  
-[**See Demo!**](https://youtu.be/6-QAKqwKfAs?feature=shared)  
+# Wiki    
+Check it out! -> [**Video Demo**](https://youtu.be/6-QAKqwKfAs?feature=shared)  
   
 ![image](https://github.com/KingJJ676/Projects_for_CS50Web/assets/130853046/dec58156-c03f-456e-928b-0ff026a9158d)
-
+  
+This website is a Wikipedia-like online encyclopedia.  
 Here are some of its main features:  
 - **Entry page:** Visiting ```/wiki/TITLE```, where ```TITLE``` is the title of an encyclopedia entry, should render a page that displays the contents of that encyclopedia entry.  
 - **Index page:** This page shows all pages in the encyclopedia, users can click on any entry name to be taken directly to that entry page.
